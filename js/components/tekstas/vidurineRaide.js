@@ -1,10 +1,9 @@
-function vidurineRaide(text) {
-    if (text === '') {
-        return '';
-    }
-    const index = Math.ceil(text.length / 2 - 1);
-    return text[index];
-}
+/**
+ * 
+ * @param {string} text Tekstas is kurio rasim vidurine raide
+ * @returns 
+ */
+const vidurineRaide = text => text === '' ? '' : text[Math.ceil(text.length / 2 - 1)];
 
 export { vidurineRaide }
 
