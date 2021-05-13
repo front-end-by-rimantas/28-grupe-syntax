@@ -6,6 +6,8 @@ import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
 
+import { vientisasTekstas } from './components/tekstas/vientisasTekstas.js';
+
 // EXECUTION
 
 const a = suma(8, 5);
